@@ -1,0 +1,59 @@
+.factorial-calculator {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .factorial-calculator h3 {
+    margin-top: 0;
+    color: #007bff;
+  }
+  
+  .factorial-calculator label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .factorial-calculator input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .factorial-calculator button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .factorial-calculator button:hover {
+    background-color: #0056b3;
+  }
+  
+  .factorial-calculator button:active {
+    background-color: #003f80;
+  }
+  
+  .factorial-calculator p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .factorial-calculator .error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
